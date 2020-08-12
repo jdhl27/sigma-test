@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous">
+
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="css/style.css">  
+
+  <title>Sigma</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <img class="image-logo" src="images/sigma-logo.png" alt="Imagen Sigma" srcset="">
+    </div>
+    <!-- Contenedor título y párrafo -->
+    <div class="row justify-content-center">
+      <h3 class="title text-center">Prueba de desarrollo Sigma</h3>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut suscipit laboriosam hic modi aliquid 
+        molestiae ex ipsum deserunt reprehenderit at quisquam, dicta atque omnis facilis id accusantium vel 
+        nihil sequi!</p>
+    </div>
+
+    <!-- Contenedor imagen y formulario -->
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="container-image col-sm-12 col-md-12 col-lg-5 align-self-center">
+        <img class="image-body" src="images/sigma-image.png" alt="" srcset="">
+      </div>
+
+      <div class="container-form col-sm-12 col-md-12 col-lg-5">
+        <form class="card-body" action="/contacts" method="POST">
+          <div class="form-group">
+            <label for="state">Departamento*</label>
+            <select id="state" name="state" type="text" class="form-control" required onchange="changesSelect()">
+              
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="state">Ciudad*</label>
+            <select id="city" name="city" type="text" class="form-control" required>
+           
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="state">Nombre*</label>
+            <input id="nombre" name="name" type="text" class="form-control" placeholder="Pepito de Jesús" required>
+          </div>
+          <div class="form-group">
+            <label for="state">Correo*</label>
+            <input id="email" name="email" type="text" class="form-control" placeholder="Pepitodejesus@gmail.com" required>
+          </div>
+          <div class="form-group text-center">
+            <input type="submit" class="btn-submit btn text-uppercase">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

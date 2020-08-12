@@ -1,0 +1,71 @@
+/* Tags */
+body{
+  font-family: 'Roboto';
+}
+
+label, .btn-submit, .title{ 
+  font-weight: 700;
+}
+
+.form-control{
+  border-color: #e4e4e4;
+}
+
+/* Clases */
+.container{
+  margin-top: 2.3vw;
+  padding-bottom: 144px;
+}
+
+.row{
+  padding: 10px;
+}
+
+.title{
+  width: 100%;
+  padding: 20px;
+}
+
+.description{
+  width: 65%;
+  color: #737172;
+  font-weight: 600;
+  text-align: center;
+}
+
+.image-body{
+  width: 100%;
+}
+
+.container-form{
+  padding: 32px;
+  border: 1px solid #80808024;
+  border-radius: 25px;
+  box-shadow: 4px 0px 13px 0px #cacaca94;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.btn-submit{
+  background-color: #e03b65;
+  color: white;
+  padding: 11px 41px;
+  margin-top: 15px;
+  border-radius: 50px;
+}
+
+.btn-submit:hover{
+  color: white;
+  box-shadow: 0 0 6px 1px #d45575;
+}
+
+/* Animación */
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
