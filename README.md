@@ -1,2 +1,4 @@
 # sigma-test
-Prueba laboral para empresa Sigma Studios
+Job test for Sigma Studios company
+
+You can see it in: https://jdhl27.github.io/Vista-grafica-sigma/
